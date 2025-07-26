@@ -1,5 +1,32 @@
 from django.contrib import admin
 
-from persons.models import Person
-# Register your models here.
+from persons.models import *
+
+
 admin.site.register(Person)
+admin.site.register(CharFieldExample)
+admin.site.register(IntegerFieldExample)
+admin.site.register(FloatFieldExample)
+admin.site.register(DecimalFieldExample)
+admin.site.register(BooleanFieldExample)
+admin.site.register(DateFieldExample)
+admin.site.register(TimeFieldExample)
+admin.site.register(DateTimeFieldExample)
+admin.site.register(DurationFieldExample)
+admin.site.register(EmailFieldExample)
+admin.site.register(RegexFieldExample)
+admin.site.register(URLFieldExample)
+admin.site.register(ChoiceFieldExample)
+admin.site.register(MultiChoiceFieldExample)
+admin.site.register(ListFieldExample)
+admin.site.register(DictFieldExample)
+admin.site.register(SlugFieldExample)
+admin.site.register(UUIDFieldExample)
+admin.site.register(FilePathFieldExample)
+admin.site.register(IPAddressFieldExample)
+admin.site.register(JSONFieldExample)
+admin.site.register(FileFieldExample)
+admin.site.register(ImageFieldExample)
+admin.site.register(HiddenFieldExample)
+admin.site.register(ReadWriteExample)
+admin.site.register(MethodFieldExample)
